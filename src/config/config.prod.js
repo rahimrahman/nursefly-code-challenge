@@ -1,6 +1,6 @@
 export default {
   apiUrl: "*",
-  apiKey: "*"
+  apiKey: "*",
 };
 
 //key=API_KEY

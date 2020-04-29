@@ -1,1 +1,2 @@
-const ENV = 'prod'; export default ENV;
+const ENV = "prod";
+export default ENV;

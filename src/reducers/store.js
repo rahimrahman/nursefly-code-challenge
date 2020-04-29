@@ -2,9 +2,11 @@ import { applyMiddleware, createStore, combineReducers, compose } from "redux";
 import ReduxThunk from "redux-thunk";
 
 import books from "./books";
+import users from "./users";
 
 const appReducer = combineReducers({
-  books
+  books,
+  users,
 });
 
 export const setupStore = () => {
@@ -23,4 +25,3 @@ export const setupStore = () => {
 };
 
 export const store = setupStore();
-
